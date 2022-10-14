@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CardWrapper from "./components/cardWrapper";
+import SubmitComponent from "./components/submit";
+import SuccessComponent from "./components/success";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  
+    <CardWrapper>
+      <SubmitComponent />
+      {/* <SuccessComponent /> */}
+    </CardWrapper>
   );
 }
 
